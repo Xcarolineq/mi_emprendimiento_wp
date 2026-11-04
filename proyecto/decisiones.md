@@ -19,8 +19,8 @@ Decisiones del Proyecto: Nora Fotografía Felina
 ## 2. Páginas de la fase 1
 
 ### Páginas seleccionadas para la Fase 1:
-1. **Inicio:** Es la carta de presentación del emprendimiento, muestra la propuesta de valor y los accesos principales. (Obligatoria)
-2. **Contacto:** Permite a los tutores de los gatos enviar solicitudes de reserva o consultas directas mediante Forminator. (Obligatoria)
+1. **Inicio:** Es la carta de presentación del emprendimiento, muestra la propuesta de valor y los accesos principales. 
+2. **Contacto:** Permite a los tutores de los gatos enviar solicitudes de reserva o consultas directas mediante Forminator. 
 3. **Nosotros:** Cuenta la historia de cómo nació el proyecto inspirándose en Nora y el vínculo con los felinos.
 4. **Servicios:** Detalla los planes fotográficos disponibles (como "Esencia Felina" y "Clan Felino") y su metodología sin estrés.
 5. **Blog:** Espacio para compartir las vivencias, historias de rescate y el inicio del proyecto con nuestra musa Nora.
