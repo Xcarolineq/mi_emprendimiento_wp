@@ -1,7 +1,7 @@
 # Nora - Fotografía y Cuadros de Gatos · Sitio WordPress
 
 * **Sitio en producción:** http://caroline207.ct.ws
-* **Autor/a:** `Caroline Pizarro sección 01-D`
+* **Autora:** `Caroline Pizarro sección 01-D`
 
 ## Contexto de la web
 
