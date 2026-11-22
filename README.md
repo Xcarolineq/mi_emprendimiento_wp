@@ -1,7 +1,7 @@
 # Nora Fotografía Felina · Sitio WordPress
 
 * **Sitio en producción:** http://caroline207.ct.ws
-* **Autor/a:** `Caroline Pizarro sección 01D`
+* **Autora:** `Caroline Pizarro sección 01D`
 
 ## Contexto de la web
 
