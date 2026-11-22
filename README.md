@@ -1,15 +1,15 @@
-# Nora - Fotografía y Cuadros de Gatos · Sitio WordPress
+# Nora Fotografía Felina · Sitio WordPress
 
 * **Sitio en producción:** http://caroline207.ct.ws
-* **Autora:** `Caroline Pizarro sección 01-D`
+* **Autor/a:** `Caroline Pizarro sección 01D`
 
 ## Contexto de la web
 
-Nora es un emprendimiento dedicado a la fotografía artística y la creación de cuadros personalizados de gatos. El sitio está dirigido a dueños de mascotas que buscan retratos profesionales y recuerdos duraderos de sus felinos, resolviendo la dificultad de encontrar fotógrafos especializados en el comportamiento de gatos. Al llegar a la web, el objetivo es que el visitante explore el estilo visual del portafolio, conozca los servicios de sesiones y envíe una solicitud de contacto o cotización.
+**Nora Fotografía Felina** es un emprendimiento dedicado a la fotografía artística y la creación de cuadros personalizados de gatos. El sitio está dirigido a tutores y dueños de mascotas que buscan retratos profesionales y recuerdos duraderos de sus felinos, resolviendo la dificultad de encontrar fotógrafos especializados en el comportamiento felino y sesiones sin estrés a domicilio. Al llegar a la web, el objetivo es que el visitante explore el estilo visual del portafolio, conozca la historia del proyecto y envíe una solicitud de contacto o cotización.
 
 ## Mi tema
 
-* **Tema instalado desde WordPress:** Kadence - https://es.wordpress.org/themes/kadence/
+* **Tema instalado desde WordPress:** Twenty Twenty-Five - https://es.wordpress.org/themes/twentytwentyfive/
 
 ## Instrucciones si uso un tema descargado
 
@@ -17,34 +17,34 @@ Nora es un emprendimiento dedicado a la fotografía artística y la creación de
 
 | Dato | Mi tema |
 | :--- | :--- |
-| Nombre y enlace a la ficha | [Kadence](https://es.wordpress.org/themes/kadence/) |
-| Gratis o de pago | Gratis (versión base) |
-| Tipo (clásico o de bloques) | De bloques (Full Site Editing / Bloques) |
-| Versión de WordPress que requiere | 6.0 o superior |
-| Versión de PHP que requiere | 7.4 o superior (recomendado PHP 8.0+) |
-| Plugins que necesita (si alguno) | Ninguno obligatorio (opcional: Kadence Blocks) |
+| Nombre y enlace a la ficha | [Twenty Twenty-Five](https://es.wordpress.org/themes/twentytwentyfive/) |
+| Gratis o de pago | Gratis (tema oficial de WordPress) |
+| Tipo (clásico o de bloques) | De bloques (Full Site Editing / Edición completa del sitio) |
+| Versión de WordPress que requiere | 6.7 o superior |
+| Versión de PHP que requiere | 7.2.24 o superior (recomendado PHP 8.0+) |
+| Plugins que necesita (si alguno) | Ninguno obligatorio |
 | Licencia | GPLv2 o posterior |
 
 ### Cómo llevar mi sitio de Local a producción
 
-Para migrar el sitio desde el entorno local hacia el alojamiento en producción (InfinityFree) se utilizó un plugin de migración:
+Para migrar el sitio desde el entorno local hacia el alojamiento en producción (InfinityFree) se utilizó un plugin de migración todo en uno:
 
 * **Plugin de migración que uso:** [All-in-One WP Migration](https://es.wordpress.org/plugins/all-in-one-wp-migration/). Es gratis en su versión base. Su límite principal es el tamaño máximo de subida en el servidor de destino.
-* **Qué se exporta:** Base de datos completa (entradas, páginas, configuraciones, menús), archivos multimedia (imágenes), temas y plugins instalados.
+* **Qué se exporta:** Base de datos completa (entradas, páginas, configuraciones, menús), archivos multimedia (fotografías), temas y plugins instalados.
 
 **Pasos:**
 1. **En Local:** Se instaló y activó *All-in-One WP Migration*, luego se fue a *Exportar > Exportar a > Archivo* para generar el respaldo `.wpress`.
-2. **En producción:** Se realizó una instalación limpia de WordPress en InfinityFree, se instaló y activó el plugin *All-in-One WP Migration* y el tema *Kadence*.
+2. **En producción:** Se realizó una instalación limpia de WordPress en InfinityFree, se instaló y activó el plugin *All-in-One WP Migration* y el tema oficial *Twenty Twenty-Five*.
 3. **Importa:** Desde el panel de producción se entró a *All-in-One WP Migration > Importar* y se subió el archivo `.wpress` generado.
 4. **Revisa:** Se guardaron nuevamente los enlaces permanentes (*Ajustes > Enlaces permanentes*), se verificó que el menú de navegación y la página de inicio cargaran bien, y se revisaron las imágenes y el formulario de contacto.
-5. **Problemas que tuve y cómo los resolví:** El límite de subida de archivos del hosting gratuito dificultó la importación inicial; se resolvió optimizando el peso de las imágenes con el plugin *Smush* antes de exportar para reducir el tamaño total del respaldo `.wpress`.
+5. **Problemas que tuve y cómo los resolví:** El límite de subida de archivos del hosting gratuito dificultó la importación inicial; se resolvió optimizando el peso de las fotografías con el plugin *Smush* antes de exportar para reducir el tamaño total del respaldo `.wpress`.
 
 ## Respaldo y reinstalación en otro servidor
 
 El objetivo de este proyecto es que puedas respaldar tu sitio y reinstalarlo en cualquier servidor. Aquí están los pasos para replicarlo:
 
 **Qué respaldar:**
-* Los archivos de WordPress (tema Kadence, plugins instalados y carpeta `uploads` con las imágenes subidas).
+* Los archivos de WordPress (tema Twenty Twenty-Five, plugins instalados y carpeta `uploads` con las fotografías subidas).
 * La base de datos (páginas, entradas del blog, menús y configuración general).
 
 **Cómo respaldo mi sitio:** Se utiliza el plugin **All-in-One WP Migration**. Al ir a *All-in-One WP Migration > Exportar > Archivo*, el plugin genera un único archivo empaquetado con extensión `.wpress` que se descarga directamente en la computadora.
@@ -71,8 +71,8 @@ El objetivo de este proyecto es que puedas respaldar tu sitio y reinstalarlo en 
 
 ## Páginas y entradas
 
-* **Páginas:** `inicio,blog, nosotros y contáctame`
-* **Entradas del blog:** `el comienzo,la Nora y fotografías felinas musa Nora`
+* **Páginas:** Inicio, Blog, Nosotros, Contactame
+* **Entradas del blog:** El comienzo, La Nora, Fotografías felinas musa Nora
 
 ## Cómo me organicé
 
